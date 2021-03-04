@@ -54,7 +54,7 @@ public class controllerApi {
 	@GetMapping(value = "hola")
 	public ResponseEntity<?> obtnerDatosPersonaMensaje() {
 		Map<String, Object> resp = new HashMap<String, Object>();
-		resp.put("Mensaje", "Hola bienvenido miau miau miau");
+		resp.put("Mensaje", "Hola bienvenido miau miau miau miau");
 
 		return new ResponseEntity<Map<String, Object>>(resp, HttpStatus.OK);
 
